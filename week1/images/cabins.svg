@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" version="1.1" viewBox="0 0 500.00001 500.00001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="780.47" x2="858.45" y1="323.66" y2="248.95" gradientTransform="matrix(.72169 0 0 .72169 -211.46 -152.08)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e10000" offset="0"/>
+   <stop stop-color="#ff6d40" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0 -552.36)">
+  <rect y="552.36" width="500" height="500" ry="23.273" fill-opacity="0"/>
+ </g>
+ <ellipse cx="253.19" cy="443.06" rx="215.65" ry="18.917" fill-opacity=".063107"/>
+ <rect x="60.235" y="184.6" width="385.91" height="260.11" ry="0" fill="#deec9b"/>
+ <rect x="37.593" y="170.88" width="431.19" height="10.964" rx="0" ry="5.4821" fill="#deec9b"/>
+ <path d="m68.6 192.97h180.41v65.737h-180.41z" fill="#d9dc75"/>
+ <path d="m68.6 267.07 180.41 2e-5v65.737l-180.41-2e-5z" fill="#d9dc75"/>
+ <path d="m257.37 192.97h180.41v65.737h-180.41z" fill="#d9dc75"/>
+ <path d="m257.37 267.07 180.41 2e-5v65.737l-180.41-2e-5z" fill="#d9dc75"/>
+ <rect x="68.6" y="341.17" width="180.41" height="95.177" fill="#d9dc75"/>
+ <rect x="257.37" y="341.17" width="180.41" height="95.177" fill="#d9dc75"/>
+ <rect x="143.9" y="216.78" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="332.67" y="216.78" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="332.67" y="290.88" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="143.9" y="290.88" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="143.9" y="364.99" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="332.67" y="364.99" width="29.804" height="7.4125" fill="#6b6d2f" fill-opacity=".23301"/>
+ <rect x="378.73" y="39.906" width="5.0162" height="125.96" ry="2.7345" fill="#3b3628"/>
+ <rect x="346.26" y="161.86" width="69.971" height="9.0291" ry="2.2717" fill="#504b36"/>
+ <path d="m347.98 29.889h66.517c1.2557 0 2.0807 1.0247 2.2666 2.2666l6.362 42.507c0.92235 6.1627-1.1919 11.675-2.6725 11.675h-78.429c-1.4806 0-3.5948-5.512-2.6725-11.675l6.362-42.507c0.18585-1.2418 1.0109-2.2666 2.2666-2.2666z" fill="url(#a)"/>
+ <path d="m345.65 29.33h71.176l0.91963 2.7906h-73.016z" fill="#633500"/>
+ <path d="m342.13 88.576h78.233l1.0108-2.7906h-80.254z" fill="#633500"/>
+ <g transform="translate(-37.216)">
+  <g transform="matrix(.53891 0 0 .53891 -129.23 -69.744)">
+   <path transform="translate(0 -27.638)" d="m617 406.43v62.723h-62.568v4.9629h73.033v-67.686h-10.465z" fill="#252525"/>
+   <path d="m585.63 409.43c2.232-2.232 4.1098 1.9075 3.7097 3.7097-1.0844 4.8839-7.34 5.669-11.129 3.7097-6.7778-3.5047-7.5718-12.606-3.7097-18.549 5.6678-8.7212 17.943-9.531 25.968-3.7097 10.696 7.7588 11.514 23.306 3.7097 33.387-9.8211 12.687-28.68 13.51-40.807 3.7097" fill="none" stroke="#252525" stroke-linecap="round" stroke-width="6.302"/>
+   <rect x="612.53" y="383.37" width="9.9087" height="58.958" fill="#252525"/>
+  </g>
+  <rect transform="matrix(.99877 -.049573 .049573 .99877 0 0)" x="202.2" y="106.01" width="18.188" height="75.253" ry="1.8354" fill="#b7e535"/>
+  <path d="m207.59 103.61 0.11704 2.3581 18.165-0.90161-0.11704-2.3581-18.165 0.90161zm2.983 60.1 0.11697 2.3567 18.165-0.9016-0.11697-2.3567-18.165 0.90161z" fill="#4a5821"/>
+  <g transform="matrix(.72169 0 0 .72169 -211.46 -152.08)">
+   <rect transform="matrix(.99986 -.016531 .016531 .99986 0 0)" x="603.06" y="351.08" width="9.4823" height="106.43" ry="0" fill="#969d82"/>
+   <rect transform="matrix(.99986 -.016531 .016531 .99986 0 0)" x="610.58" y="351.08" width="1.9619" height="106.43" ry="0" fill="#2e2f25"/>
+   <rect transform="matrix(.99986 -.016531 .016531 .99986 0 0)" x="603.06" y="351.08" width="1.9619" height="106.43" ry="0" fill="#2e2f25"/>
+  </g>
+  <rect transform="matrix(.99997 -.0072456 .0072456 .99997 0 0)" x="234.77" y="115.75" width="12.035" height="56.634" ry=".70547" fill="#6b5bbc"/>
+  <rect transform="matrix(.99997 -.0072456 .0072456 .99997 0 0)" x="236.07" y="115.54" width="9.4275" height="57.066" ry=".28131" fill="#6c58cc"/>
+  <path d="m238.93 117.83 2.1274-1.2283 2.1274-1.2283v4.9132l-2.1274-1.2283z" fill="#afafaf"/>
+ </g>
+</svg>
