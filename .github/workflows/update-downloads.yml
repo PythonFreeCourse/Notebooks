@@ -1,0 +1,46 @@
+name: Update Downloads
+
+on:
+  push:
+    paths:
+      - 'content/**'
+
+jobs:
+  update-downloads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Notebooks repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install zip
+        run: sudo apt-get install zip
+
+      - name: Zip content directories
+        run: |
+          cd content
+          for dir in week*; do
+            zip -r "../$dir.zip" "$dir" -X -q -x "*.git*"
+          done
+          cd ..
+
+      - name: Checkout Downloads repo
+        uses: actions/checkout@v2
+        with:
+          repository: PythonFreeCourse/downloads
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          path: downloads
+
+      - name: Copy zip files to Downloads repo
+        run: |
+          cp *.zip downloads/
+      
+      - name: Commit and push changes
+        run: |
+          cd downloads
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add -A .
+          git commit -m "Update zip files by ${{ github.actor }}" || echo "No changes to commit"
+          git push
